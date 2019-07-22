@@ -45,7 +45,7 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">How It Works</h2>
+          <h2 className="major">Team behind Osho World Adventure</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <h3>We are Pioneer in Nepal Toursim</h3>
           <p>Osho World Adventure offers a variety of products geared to suit you and your client’s needs including hotels, tours, activities, transfers and car rentals. With our travel professionals, account managers, customer service, diversified products with dynamic pricing, and variety of ways to connect to our platform, you’ll see how Osho World Adventure is quickly becoming a household name in the travel industry. Request your login today to see why over 20,000 travel trade partners continue to travel with us.</p>
