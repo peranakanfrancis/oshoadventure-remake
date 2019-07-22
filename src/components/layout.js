@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'An American online digital travel services provider that create Nepal based OTA, travel booking, hotel sites and other related internet services.' },
+              { name: 'keywords', content: 'nepal travel, ota, nepal tour planner, hotel in nepal, tours in nepal, activities in nepal' },
             ]}
           >
             <html lang="en" />

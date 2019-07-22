@@ -4,19 +4,20 @@ import PropTypes from 'prop-types'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <span className="icon fa-plane"></span>
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Osho World Adventure</h1>
+                <h3>We understand you want to offer the perfect trip for your travelers, at the best price, and to do so effortlessly.</h3>
+                <p>Nepal's first one-stop solution for travel agents and corporate, gain access to a wide breadth of quality travel products, impressive rates, last-minute availability, and a world-class booking experience.</p>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('ota')}}>OTA</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('tours')}}>Tours</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('hotel')}}>Hotel</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
